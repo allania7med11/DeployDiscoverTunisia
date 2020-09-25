@@ -1,0 +1,13 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d project-1"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://allania7med11.github.io/discovertunisia",
+  "license": "ISC"
+}
