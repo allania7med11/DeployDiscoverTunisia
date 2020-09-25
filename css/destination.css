@@ -1,0 +1,34 @@
+@import './destination/container.css';
+@import './destination/hr.css';
+@import './destination/images.css';
+@import './destination/nav.css';
+@import './destination/dropdown.css';
+html {
+	scroll-behavior: smooth;
+}
+.title{
+    margin-top: 70px;
+    text-align: center;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+section{
+    padding-top: 70px;
+}
+h1{
+    padding-left: 10px;
+}
+h2{
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+p{
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 0;
+}

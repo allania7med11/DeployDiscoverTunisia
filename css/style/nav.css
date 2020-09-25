@@ -1,0 +1,58 @@
+.nav a {
+  text-align: start;
+  white-space: nowrap;
+  padding: 16px 8px 16px 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: darkgray;
+  display: block;
+}
+
+.nav a:hover {
+  color: white;
+}
+#navbar-brand{
+  text-transform: capitalize;
+  color: gainsboro;
+  font-family: "Grenze Gotisch";
+  white-space: nowrap;
+  padding: 10px 8px 16px 8px;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+}
+#navbar-brand:hover{
+  color: white;
+}
+
+
+.nav {
+  display: flex;
+  align-items:center;
+  position: fixed;
+  background-color: #111;
+  height: 50px;
+  width: 100%;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .nav a {
+    padding: 16px 4px 16px 4px;
+    font-size: 16px;
+  }
+  #navbar-brand{
+    padding: 16px 8px 16px 8px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
