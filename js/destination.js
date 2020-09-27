@@ -7,16 +7,20 @@ function maxWidth(){
     document.documentElement["offsetWidth"]
   );
 }
+var header = document.getElementById("header");
 var main = document.getElementById("main");
 var sidenav = document.getElementById("sidenav");
 var openSideNav = document.getElementById("openSideNav");
-main.onclick = function(event) {
-  if (openSideNav.checked) {
+var changeSideNav=function(event) {
+  var max=maxWidth()
+  if (openSideNav.checked && max<768) {
     if (!sidenav.contains(event.target)) {
       openSideNav.checked = false;
     }
   }
 };
+header.onclick = changeSideNav;
+main.onclick = changeSideNav;
 var body=document.body
 window.onload = function(){
   var max=maxWidth()

@@ -43,10 +43,11 @@
   align-items:center;
   position: fixed;
   background-color: #111;
-  height: 50px;
+  height: 60px;
   width: 100%;
   padding-left: 50px;
   padding-bottom: 10px;
+  z-index: 1;
 }
 
 .sidenav {
@@ -63,6 +64,7 @@ input[type="checkbox"]:checked ~ .sidenav {
 
 
 .IconToggle {
+  z-index: 10;
   background-color: #111;
   display: inline-block;
   width: 20px;

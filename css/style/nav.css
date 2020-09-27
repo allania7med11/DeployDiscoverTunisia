@@ -13,7 +13,7 @@
 }
 #navbar-brand{
   text-transform: capitalize;
-  color: gainsboro;
+  color: azure;
   font-family: "Grenze Gotisch";
   white-space: nowrap;
   padding: 10px 8px 16px 8px;
@@ -36,6 +36,7 @@
   width: 100%;
   padding-left: 50px;
   padding-bottom: 10px;
+  z-index: 1;
 }
 @media screen and (max-width: 768px) {
   .nav a {
