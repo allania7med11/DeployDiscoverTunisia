@@ -14,8 +14,8 @@
 }
 .main {
   grid-area: main;
-  padding-bottom: 150px;
-  transition: margin-left 0.5s;
+  padding-bottom: 110px;
+  transition: margin 0.5s;
 }
 .footer {
   text-align: center;
